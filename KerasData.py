@@ -36,7 +36,7 @@ class KerasData():
 
     def Collect_Image(self):
         '''
-        Collect image from file.csv
+        Collect images from file.csv
         '''     
         for Name in range(len(self.File)):
             for Url in range(len(self.File.columns)):
